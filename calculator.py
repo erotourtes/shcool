@@ -13,7 +13,7 @@ def opp(op):
         if formula[0] != "-":
             data.insert(0, "-")
         else:
-            formula.insert(0, "+")
+            data.insert(0, "+")
         formula = ''.join(data)
     elif op == "=":
         try:
